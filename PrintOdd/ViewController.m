@@ -20,7 +20,7 @@
 }
 
 - (void)printOddNumbers:(int)numberOfLoops {
-    for (int i = 0; i < numberOfLoops; i++) {
+    for (int i = 1; i < numberOfLoops; i += 2) {
         if (i % 2 != 0) {
             NSLog(@"%d", i);
         }
